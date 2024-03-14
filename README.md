@@ -1,11 +1,13 @@
-# profWeb
+# Profile Web
 
-This website is now powered by Vue.js V3 (Instead of single HTML file).
+Yup. You heard it right.
+This project will display my social profile with my previous past of me to my future that I'm too lazy to add any social account to make it much easier to access.
+Instead... I decided to make it jut within 1 link and click for my convenience.
 
-## About
+## What does it powered
 
-It does... nothing. Besides displaying my socials (for now).
+- a single HTML file. (I mean really.)
 
-### This web is still on developing 
+## What if I have another profile... What am I gonna do?
 
-As long as I got my works full and no free time at the time, it will be stayed the same (until it will be updated)
+- Just update this. I guess.

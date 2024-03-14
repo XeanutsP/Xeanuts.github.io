@@ -1,13 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/53105428?v=4">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xea Xeanuts(XeanutsP)</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+    <title>XeanutsP (Xea Xeanuts)</title>
+</head>
+
+<body>
+    <div class="nameTitle">
+        <h1 class="mediumFont large">XeanutsP</h1>
+        <h5 class="lightFont small stickTop">I did this just in case I'm too lazy adding my social account.</h5>
+    </div>
+    <div class="socialContainer">
+        <div class="socialTitle">
+            <h3 class="heavyFont">Social Accounts</h3>
+        </div>
+        <!-- This gonna get interesting -->
+        <a href="https://github.com/XeanutsP">
+            <div class="socialItem">
+                <img src="https://avatars.githubusercontent.com/u/53105428?v=4" alt="">
+                <div class="socialDescription">
+                    <h4 class="heavyFont socialTitle">Github</h4>
+                    <span class="lightFont">XeanutsP</span>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/XeanutsP">
+            <div class="socialItem">
+                <img src="https://avatars.githubusercontent.com/u/53105428?v=4" alt="">
+                <div class="socialDescription">
+                    <h4 class="heavyFont socialTitle">Github</h4>
+                    <span class="lightFont">XeanutsP</span>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/XeanutsP">
+            <div class="socialItem">
+                <img src="https://avatars.githubusercontent.com/u/53105428?v=4" alt="">
+                <div class="socialDescription">
+                    <h4 class="heavyFont socialTitle">Github</h4>
+                    <span class="lightFont">XeanutsP</span>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/XeanutsP">
+            <div class="socialItem">
+                <img src="https://avatars.githubusercontent.com/u/53105428?v=4" alt="">
+                <div class="socialDescription">
+                    <h4 class="heavyFont socialTitle">Github</h4>
+                    <span class="lightFont">XeanutsP</span>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/XeanutsP">
+            <div class="socialItem">
+                <img src="https://avatars.githubusercontent.com/u/53105428?v=4" alt="">
+                <div class="socialDescription">
+                    <h4 class="heavyFont socialTitle">Github</h4>
+                    <span class="lightFont">XeanutsP</span>
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+<style>
+    h1 {
+        padding: 0;
+        margin: 0;
+        vertical-align: bottom;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    img {
+        width: auto;
+        height: 1.7cm;
+        border-radius: 2cm;
+        margin-left: 4px;
+        margin-right: 14px;
+    }
+
+    .lightFont {
+        font-family: "roboto", sans-serif;
+        font-weight: 100;
+    }
+
+    .mediumFont {
+        font-family: "roboto", sans-serif;
+        font-weight: 300;
+    }
+
+    .heavyFont {
+        font-family: "roboto", sans-serif;
+        font-weight: 400;
+    }
+
+    .large {
+        font-size: 8.1vw;
+    }
+
+    .small {
+        font-size: 2vw;
+    }
+
+    .stickTop {
+        vertical-align: top;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .socialContainer {
+        border-radius: 12px;
+    }
+
+    .socialItem {
+        border-radius: 1cm;
+    }
+
+    .socialDescription {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nameTitle {
+        width: 36vw;
+        font-weight: 400;
+    }
+
+    .socialContainer {
+        width: 36vw;
+        margin-left: 24px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;
+        background-color: aqua;
+        align-items: center;
+        }
+
+    .socialItem {
+        margin-top: 12px;
+        width: 32vw;
+        height: 72px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .socialImage {
+        align-self: center;
+    }
+    .socialDescription h4 {
+        margin-top: 0;
+        margin-bottom: 4px;
+    }
+
+    @media (max-width: 600px) {
+        .small {
+            font-size: 4vw;
+        }
+
+        .large {
+            font-size: 15vw;
+        }
+
+        body {
+            flex-wrap: column;
+            align-items: baseline;
+        }
+
+        .nameTitle {
+            margin-top: 10vh;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            width: 68vw;
+        }
+
+        .socialContainer {
+            margin: 0;
+            padding: 2vw;
+            width: 68vw;
+        }
+        .socialDescription h4 {
+            top: 40%;
+            margin-bottom: 4px;
+        }
+        .socialItem {
+            width: 60vw;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        body {
+            background-color: aliceblue;
+
+        }
+
+        .nameTitle {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(320deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .socialContainer {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(320deg, rgba(2, 0, 36, .4) 0%, rgba(9, 9, 121, .4) 35%, rgba(0, 212, 255, .4) 100%);
+
+        }
+
+        .socialItem {
+            background-color: rgba(236, 236, 236, 0.744);
+        }
+
+        span {
+            color: black;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: rgb(14, 14, 14);
+
+        }
+
+        .nameTitle {
+            background: rgb(144, 138, 252);
+            background: linear-gradient(145deg, rgba(144, 138, 252, 1) 0%, rgba(0, 212, 255, 1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .socialContainer {
+            background: rgb(144, 138, 252);
+            background: linear-gradient(145deg, rgba(144, 138, 252, 1) 0%, rgba(0, 212, 255, 1) 100%);
+        }
+        .socialTitle {
+            color: rgb(218, 249, 255);
+        }
+        .socialItem {
+            background-color: rgba(61, 61, 61, 0.6);
+        }
+
+        span {
+            color: whitesmoke;
+        }
+    }
+</style>
+
 </html>
